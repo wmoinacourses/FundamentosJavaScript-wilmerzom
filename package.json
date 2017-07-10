@@ -1,0 +1,29 @@
+{
+  "name": "fundamentosjavascript-wilmerzom",
+  "version": "0.1.0",
+  "description": "Traductor de idioma wilmerzom",
+  "main": "dist/src/wilmerzom.js",
+  "scripts": {
+    "build": "babel src/wilmerzom.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wmoinacourses/FundamentosJavaScript-wilmerzom.git"
+  },
+  "keywords": [
+    "wilmerzon",
+    "fundamentos-java-script",
+    "fundamentos",
+    "javascript",
+    "js"
+  ],
+  "author": "Wilmer Moina <wilmermoinacourses@gmail.com> (https://wilmermoina.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  }
+}
